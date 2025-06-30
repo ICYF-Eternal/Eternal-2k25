@@ -8,7 +8,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  overflow-x: hidden;
+  overflow-x: auto;
   overflow-y: auto;
   height: auto;
   background-image: url(""); /* Path to your local image */
@@ -632,4 +632,10 @@ section {
       0 0 12px #f8f8f5;
   }
 }
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
 
