@@ -638,4 +638,29 @@ section {
   margin: 0 auto;
 }
 
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+    font-size: 95%;
+  }
+  h1, h2 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .main-content, .event-box, .countdown {
+    padding: 0 10px;
+  }
+  .register-button {
+    width: 100%;
+    margin: 15px 0;
+    font-size: 1rem;
+  }
+  iframe, video {
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+
 
