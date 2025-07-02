@@ -44,7 +44,7 @@ section{
 }
 
 .verse {
-  font-size: 5rem;         /* or whatever size you prefer */
+  font-size: 4rem;         /* or whatever size you prefer */
   font-weight: 1000;        /* makes it bold — you can go up to 900 */
   color: rgb(14, 13, 13);
   margin: 20px 0;
@@ -52,7 +52,7 @@ section{
 
 
 .verseName {
-  font-size: 4rem;
+  font-size: 3rem;
   display: block;
   font-weight: 700;
   color: #0a0a0a;
@@ -64,7 +64,7 @@ section{
 }
 
 .details span {
-  font-size: 2.5rem;
+  font-size: 2rem;
   display: block;
   font-weight: 600;
   color: #0e0d0d;
@@ -72,7 +72,7 @@ section{
 }
 
 .details .event-location {
-  font-size: 2.3rem !important;
+  font-size: 2rem !important;
   font-weight: 500;
   color: #0f0f0f;
 }
@@ -100,11 +100,11 @@ section{
 }
 
 .main-text h1 {
-  font-size: 3rem; 
+  font-size: 3.2rem; 
 }
 
 .main-text .mfc {
-  font-size: 3rem;
+  font-size: 3.2rem;
   font-weight: normal;  /* Not bold */
   font-style: normal;   /* ✅ Straight, not italic */
   font-family: 'Orbitron', sans-serif;
