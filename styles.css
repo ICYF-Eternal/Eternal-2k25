@@ -183,7 +183,7 @@ section{
   left: 0;
   width: 220px;
   height: 100vh;
-  background-color: transparent;
+  background-color: black;
   padding-top: 60px;
   overflow-x: hidden;
   transition: transform 0.3s ease;
