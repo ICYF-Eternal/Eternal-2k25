@@ -96,7 +96,7 @@ section{
 
 
 .main-text {
-  max-width: 60%;
+  max-width: 50%;
 }
 
 .main-text h1 {
@@ -104,7 +104,7 @@ section{
 }
 
 .main-text .mfc {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: normal;  /* Not bold */
   font-style: normal;   /* ✅ Straight, not italic */
   font-family: 'Orbitron', sans-serif;
