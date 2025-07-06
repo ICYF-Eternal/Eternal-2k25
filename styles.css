@@ -406,7 +406,7 @@ body.sidebar-open {
 }
 
 .fisher-blink {
-  font-size: 4rem;
+  font-size: 6rem;
   font-weight: normal;  /* Not bold */
   font-style: normal;   /* ✅ Straight, not italic */
   font-family: 'Orbitron', sans-serif;
