@@ -652,7 +652,15 @@ These are the numbers. Find where they ride."</p>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 
 <script>
-  // Function to close the sidebar after clicking a menu item
+  function toggleSidebar() {
+    const sidebar = document.getElementById('sidebar');
+    const body = document.body;
+
+    sidebar.classList.toggle('collapsed');
+    body.classList.toggle('sidebar-open');
+  }
+
+  // Close sidebar after clicking any link inside it
   document.addEventListener("DOMContentLoaded", () => {
     const sidebarLinks = document.querySelectorAll("#sidebar a");
 
@@ -661,7 +669,7 @@ These are the numbers. Find where they ride."</p>
         const sidebar = document.getElementById('sidebar');
         const body = document.body;
 
-        // Close sidebar only if it is open
+        // Only close if it's open
         if (!sidebar.classList.contains("collapsed")) {
           sidebar.classList.add("collapsed");
           body.classList.remove("sidebar-open");
@@ -670,6 +678,7 @@ These are the numbers. Find where they ride."</p>
     });
   });
 </script>
+
 
 <script>
   window.addEventListener("DOMContentLoaded", () => {
