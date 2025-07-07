@@ -652,13 +652,23 @@ These are the numbers. Find where they ride."</p>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 
 <script>
-  function toggleSidebar() {
-    const sidebar = document.getElementById('sidebar');
-    const body = document.body;
+  // Function to close the sidebar after clicking a menu item
+  document.addEventListener("DOMContentLoaded", () => {
+    const sidebarLinks = document.querySelectorAll("#sidebar a");
 
-    sidebar.classList.toggle('collapsed');
-    body.classList.toggle('sidebar-open');
-  }
+    sidebarLinks.forEach(link => {
+      link.addEventListener("click", () => {
+        const sidebar = document.getElementById('sidebar');
+        const body = document.body;
+
+        // Close sidebar only if it is open
+        if (!sidebar.classList.contains("collapsed")) {
+          sidebar.classList.add("collapsed");
+          body.classList.remove("sidebar-open");
+        }
+      });
+    });
+  });
 </script>
 
 <script>
